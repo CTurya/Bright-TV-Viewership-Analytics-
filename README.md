@@ -15,7 +15,7 @@ The CEO of BrightTV requested an analysis to help the Customer Value Management 
 
 ## Dataset
 
-There are to datasets: User profiles and Viewer transactions
+There are tWo datasets: User profiles and Viewer transactions
 You can find these attchted to this repository
 
 All timestamps were converted from UTC to South African Standard Time (SAST) before analysis.
