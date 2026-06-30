@@ -1,63 +1,55 @@
 # BrightTV Viewership Analytics
 
+A full data analytics case study built for a CVM (Customer Value Management) strategy presentation — covering exploratory data analysis, an interactive Databricks dashboard, and a stakeholder-ready presentation deck.
+
+**Business objective:** Provide BrightTV's CVM team with data-driven insights to grow the subscription base, identify what drives content consumption, and recommend strategies to boost engagement on low-activity days.
+
+---
+
 ## Project Overview
 
-BrightTV is a subscription-based streaming platform looking to grow its subscriber base and increase user engagement. This project analyzes user profiles and viewing session data to identify consumption trends, understand factors influencing viewership, and recommend strategies to increase platform usage and subscriber growth.
+| Deliverable | Description |
+|---|---|
+| [`presentation/BrightTV_Presentation.pptx`](presentation/BrightTV_Presentation.pptx) | 14-slide, 20-minute executive presentation answering all 4 case study questions |
+| [`dashboard/BrightTV_Dashboard.html`](dashboard/BrightTV_Dashboard.html) | Interactive HTML analytics dashboard |
+| [`eda/BrightTV_EDA_Report.md`](eda/BrightTV_EDA_Report.md) | Full written exploratory data analysis |
+| [`sql/brighttv_clean_view.sql`](sql/brighttv_clean_view.sql) | Final Databricks SQL view — cleaned, joined, UTC→SAST converted |
+| [`sql/exploration_queries.sql`](sql/exploration_queries.sql) | Initial data exploration queries |
+| [`gantt/BrightTV_Gantt_Chart.png`](gantt/BrightTV_Gantt_Chart.png) | 14-day project plan Gantt chart |
+| [`eda/BrightTV_Project_Plan.md`](eda/BrightTV_Project_Plan.md) | Full 6-phase project plan and work breakdown |
 
-## Business Objective
+---
 
-The CEO of BrightTV requested an analysis to help the Customer Value Management (CVM) team:
+## Case Study Questions Answered
 
-* Understand user and usage trends
-* Identify factors influencing content consumption
-* Recommend content strategies for low-consumption periods
-* Suggest initiatives to grow the subscriber base
+1. **User & usage trends** — Who's watching, when, and how much (sessions, demographics, channel performance)
+2. **Factors influencing consumption** — Content type, day of week, time of day, demographics, geography
+3. **Low-consumption day content strategy** — Monday-specific content recommendations backed by viewing data
+4. **Growth initiatives** — Strategies to grow BrightTV's subscriber base, including underserved segments
+
+---
+
+## Tools & Technologies
+
+- **Databricks SQL** — data cleaning, transformation, and view creation
+- **Databricks Dashboards** — interactive analytics dashboard 
+- **PowerPoint** — executive presentation deck
+- **Miro** — EDA report and project documentation
+- **Microsoft Excel** - Data anlysis and Pivot tables
+- **Data Storytelling** - Visualizations
+- **Canva**- Project Plan / Gantt Chart
+
+---
 
 ## Dataset
 
-There are tWo datasets: User profiles and Viewer transactions
-You can find these attchted to this repository
+The dataset consists of two tables:
+- **User Profiles** (5,375 rows) — demographics: age, gender, race, province, contact info
+- **Viewership Transactions** (10,000 rows) — session-level data: channel, timestamp (UTC), duration
 
-All timestamps were converted from UTC to South African Standard Time (SAST) before analysis.
+All timestamps were converted from UTC to South African Standard Time (SAST, UTC+2) as required by the case study brief.
 
-## Tools Used
-
-* Data Cleaning
-* SQL
-* Miro
-* Canva
-* Databricks
-* Microsoft Excel
-* Git & GitHub
-* Data Storytelling
-
-## Analysis Performed
-
-### Data Cleaning
-
-Dataset 1 (TV Users)
-* Checking tv_users dataset to understand my data
-* Checking duplicates in my dataset
-* Checking size of dataset
-* Are they any rows where UserID is Null
-* Gender checks
-* Race checks
-* Province checks
-* Age Checks and creating Age buckets
-
-Dataset 2 (TV Viewership)
-* Checking tv_viewership dataset to understand my data
-* Checking duplicate viewership records
-* Converted timestamps from UTC to SAST
-* Removed duplicate records
-* Validated missing values
-* Standardized data formats
-* Checking active subscriptions vs active users
-* Checking number of channels
-* Understand Date Range
-* Check Viewing By Day
-* Chaeck most watched channel
-  
+---
 
 ### Exploratory Data Analysis
 
@@ -71,8 +63,17 @@ I used Miro to document all of the below:
 | What drives consumption? | User Segment Analysis   |
 | What should we promote?  | Content Recommendations |
 | How do we grow?          | Growth Initiatives      |
+---
 
+## Key Findings
 
+- **+119% session growth** from January to March 2016
+- **Sports content drives 48%** of all watch time — high dependency risk
+- **Monday is the weakest day** — 43% fewer sessions than Friday
+- **Only 12% of users are female** vs ~51% of the SA population — major growth opportunity
+- **989 registered users never watched** — a low-cost re-engagement opportunity
+
+---
 ### Dashboard Development
 
 Created an interactive Databricks dashboard containing:
@@ -81,29 +82,19 @@ Created an interactive Databricks dashboard containing:
 * User Trends
 * Consumption Drivers
 * Business Recommendations
-
-  ### Presentation
-
-  I used a 
-
-## Key Insights
-
-### User Trends
-
-* Identified peak viewing days and hours
-* Measured average session duration
-* Analyzed user engagement over time
-
+---
 ### Consumption Drivers
 
 * Determined factors associated with higher consumption
 * Compared engagement across user segments
-* Evaluated content performance
+* Evaluated content performance  
+---
 
 ### Low Consumption Opportunities
 
 * Identified periods with lower engagement
 * Recommended content categories to increase viewership during off-peak periods
+---
 
 ## Business Recommendations
 
@@ -113,27 +104,26 @@ Created an interactive Databricks dashboard containing:
 4. Introduce retention campaigns targeting less active users.
 5. Use targeted marketing based on user behaviour patterns.
 
-## Project Deliverables
+----
 
-* SQL Analysis
-* Dashboards
-* Executive Presentation
+## 👤 Author
 
-## Skills Demonstrated
+**Charlotte Turya**  
+Data Analyst | Information Management Consultant  
+[LinkedIn](https://www.linkedin.com/in/charlotte-t-457bb8200/) · [GitHub](https://github.com/CTurya)
 
-* Data Cleaning
-* Data Analysis
-* SQL Querying
-* Data Visualization
-* Business Intelligence
-* Dashboard Development
-* Stakeholder Communication
-* Data-Driven Decision Making
 
-## Author
 
-Charlotte Turya
 
-Aspiring Data Analyst passionate about transforming data into actionable business insights.
-# Bright-TV-Viewership-Analytics-
-his project analyzes user profiles and viewing session data to identify consumption trends, understand factors influencing viewership, and recommend strategies to increase platform usage and subscriber growth.
+
+
+
+
+
+
+
+
+
+
+
+
