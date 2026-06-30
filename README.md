@@ -10,13 +10,13 @@ A full data analytics case study built for a CVM (Customer Value Management) str
 
 | Deliverable | Description |
 |---|---|
-| [`presentation/BrightTV_Presentation.pptx`](presentation/BrightTV_Presentation.pptx) | 14-slide, 20-minute executive presentation answering all 4 case study questions |
-| [`dashboard/BrightTV_Dashboard.html`](dashboard/BrightTV_Dashboard.html) | Interactive HTML analytics dashboard |
-| [`eda/BrightTV_EDA_Report.md`](eda/BrightTV_EDA_Report.md) | Full written exploratory data analysis |
-| [`sql/brighttv_clean_view.sql`](sql/brighttv_clean_view.sql) | Final Databricks SQL view — cleaned, joined, UTC→SAST converted |
-| [`sql/exploration_queries.sql`](sql/exploration_queries.sql) | Initial data exploration queries |
-| [`gantt/BrightTV_Gantt_Chart.png`](gantt/BrightTV_Gantt_Chart.png) | 14-day project plan Gantt chart |
-| [`eda/BrightTV_Project_Plan.md`](eda/BrightTV_Project_Plan.md) | Full 6-phase project plan and work breakdown |
+| [`BrightTV_Presentation.pptx`](BrightTV_Presentation.pptx) | 14-slide, 20-minute executive presentation answering all 4 case study questions |
+| [`BrightTV_Dashboard.html`](BrightTV_Dashboard.html) | Interactive HTML analytics dashboard |
+| [`BrightTV_EDA_Report.md`](BrightTV_EDA_Report.md) | Full written exploratory data analysis |
+| [`brighttv_clean_view.sql`](brighttv_clean_view.sql) | Final Databricks SQL view — cleaned, joined, UTC→SAST converted |
+| [`exploration_queries.sql`](exploration_queries.sql) | Initial data exploration queries |
+| [`BrightTV_Gantt_Chart.png`](BrightTV_Gantt_Chart.png) | 14-day project plan Gantt chart |
+| [`BrightTV_Project_Plan.md`](BrightTV_Project_Plan.md) | Full 6-phase project plan and work breakdown |
 
 ---
 
@@ -111,13 +111,6 @@ Created an interactive Databricks dashboard containing:
 **Charlotte Turya**  
 Data Analyst | Information Management Consultant  
 [LinkedIn](https://www.linkedin.com/in/charlotte-t-457bb8200/) · [GitHub](https://github.com/CTurya)
-
-
-
-
-
-
-
 
 
 
